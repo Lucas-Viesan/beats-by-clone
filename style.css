@@ -113,7 +113,7 @@ body {
   border-width: 1px;
   border-style: solid;
   border-color: #1e1e1e;
-  background-color: honeydew;
+  background-color: white;
 }
 
 .beats-product-content-grid {
@@ -122,11 +122,26 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .beats-product-title-grid {
   font-size: 36px;
   color: #1e1e1e;
+  margin: 12px 0px -18px 0px;
 }
+
 .beats-product-subtitle-grid {
   font-size: 24px;
   color: #1e1e1e;
+}
+
+.beats-product-content-image-grid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.beats-product-image-grid {
+  width: 300px;
+  height: 100%;
 }
