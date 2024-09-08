@@ -1,147 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
 body {
   margin: 0px;
   padding: 0px;
-}
-.section-hero {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  color: #010400;
 }
 
-.section-hero-header {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-header-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-}
-
-.hero-header-icon-logo {
-  margin-left: 36px;
-  width: 48px;
-  height: 48px;
-}
-
-.hero-header-links-content {
-  display: flex;
-  width: 20%;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.hero-header-links {
-  font-size: 24px;
-  letter-spacing: 0.15rem;
-  font-weight: bold;
-  color: #1e1e1e;
-}
-
-.hero-header-lupa-content {
-  display: flex;
-  align-items: center;
-}
-
-.hero-header-icon-lupa {
-  margin-right: 52px;
-  width: 22px;
-  height: 20px;
-}
-
-.section-hero-subheader {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 50px;
-  background-color: black;
-}
-
-.hero-subheader-text-link {
-  font-size: 20px;
-  font-weight: 800;
-  color: honeydew;
-}
-
-.section-hero-image {
-  width: 100%;
-  height: 80vh;
-}
-
-/*---------------------------------------------------------------------*/
-
-.section-beats-product-container {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh;
-  align-items: center;
-  background-color: #d9d9d9;
-}
-
-.beats-product-title {
+h1 {
   font-size: 52px;
-  color: black;
-  margin-bottom: 48px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
 }
 
-.beats-product-grid {
-  display: grid;
-  width: 1216px;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
-  column-gap: 24px;
-  justify-content: center;
-  align-content: center;
+h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  font-family: "Didact Gothic", sans-serif;
+  letter-spacing: -0.02rem;
+  color: #010400;
+  margin: 0px;
+  padding: 0px;
 }
 
-.beats-product-layout-grid {
-  display: flex;
-  flex-direction: column;
-  width: 405px;
-  border-radius: 12px;
+h2.beats-solo-4 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.02rem;
+  margin: 0px;
+  padding: 0px;
+}
+h3.beats-solo-4 {
+  font-size: 32px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+}
+
+h3.cards-em-alta {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -0.02rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Didact Gothic", sans-serif;
+  color: #363636;
+  letter-spacing: -0.02rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+h4.cards-info {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Didact Gothic", sans-serif;
+  color: #808080;
+  letter-spacing: -0.02rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  width: 120px;
+  height: 52px;
+  font-size: 13.5px;
+  font-weight: bolder;
+  color: #010400;
+  letter-spacing: -0.025rem;
+  text-align: center;
+  border-radius: 24px;
   border-width: 1px;
-  border-style: solid;
-  border-color: #1e1e1e;
-  background-color: white;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  box-sizing: border-box;
 }
 
-.beats-product-content-grid {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+button.buy-pro {
+  width: 120px;
+  height: 52px;
+  font-size: 13.5px;
+  font-weight: bolder;
+  color: #ffffff;
+  letter-spacing: -0.025rem;
+  text-align: center;
+  border-radius: 24px;
+  border-width: 1px;
+  border-color: #010400;
+  background-color: #010400;
+  box-sizing: border-box;
 }
 
-.beats-product-title-grid {
-  font-size: 36px;
-  color: #1e1e1e;
-  margin: 12px 0px -18px 0px;
-}
-
-.beats-product-subtitle-grid {
+a {
   font-size: 24px;
-  color: #1e1e1e;
-}
-
-.beats-product-content-image-grid {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-}
-
-.beats-product-image-grid {
-  width: 300px;
-  height: 100%;
+  font-weight: bold;
+  font-family: "Didact Gothic", sans-serif;
+  text-decoration: none;
+  position: relative;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.8);
+  padding-bottom: 5px;
+  letter-spacing: -0.025rem;
 }
