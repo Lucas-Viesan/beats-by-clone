@@ -2,12 +2,13 @@ window.addEventListener("scroll", function () {
   const navbar = document.getElementById("navbar-container");
   const scrollPosition = window.scrollY;
 
-  if (scrollPosition > 110) {
+  if (scrollPosition > 150) {
     // Altere o valor para o ponto em que o container deve sumir
     navbar.classList.add("hidden");
   } else {
     navbar.classList.remove("hidden");
   }
+  console.log(scrollPosition);
 });
 
 window.addEventListener("scroll", function () {
