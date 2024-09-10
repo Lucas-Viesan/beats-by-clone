@@ -19,10 +19,10 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bolder;
   font-family: "Didact Gothic", sans-serif;
-  letter-spacing: -0.02rem;
+  letter-spacing: -0.025rem;
   color: #010400;
   margin: 0px;
   padding: 0px;
@@ -64,6 +64,16 @@ h4 {
   font-weight: 400;
   font-family: "Didact Gothic", sans-serif;
   color: #363636;
+  letter-spacing: -0.02rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+h4.subtitle {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
+  color: #010400;
   letter-spacing: -0.02rem;
   margin: 0px;
   padding: 0px;
@@ -296,7 +306,6 @@ a.freight-bar {
 .section-cards-products {
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
   width: 100vw;
   min-height: 100vh;
   height: auto;
@@ -320,7 +329,7 @@ a.freight-bar {
 .cards-products-grid {
   display: grid;
   width: 100%;
-  column-gap: 12px;
+  column-gap: 18px;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
   justify-content: center;
@@ -342,6 +351,13 @@ a.freight-bar {
   background-color: #ffffff;
   padding: 32px 0px 0px 24px;
   box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.products-cards:hover {
+  transform: scale(1.02); /* Aumenta 10% do tamanho */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
 }
 
 .products-cards-title {
