@@ -296,9 +296,11 @@ a.freight-bar {
 .section-cards-products {
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
   width: 100vw;
-  height: 100vh;
-  background-color: #e4fde1;
+  min-height: 100vh;
+  height: auto;
+  background-color: #e2e2e2;
 }
 
 .cards-products-container {
@@ -318,7 +320,7 @@ a.freight-bar {
 .cards-products-grid {
   display: grid;
   width: 100%;
-  column-gap: 36px;
+  column-gap: 12px;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
   justify-content: center;
@@ -330,8 +332,9 @@ a.freight-bar {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 369px;
-  height: 400px;
+  width: 400px;
+  min-height: 400px;
+  height: auto;
   border-style: solid;
   border-width: 2px;
   border-radius: 24px;
@@ -346,4 +349,38 @@ a.freight-bar {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
+}
+
+.products-cards-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.products-cards-image {
+  width: 320px;
+  height: 290px;
+}
+
+.products-colors-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  width: 110px;
+}
+
+.products-colors-container.width {
+  width: 80px;
+}
+
+.products-colors-content {
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
 }
