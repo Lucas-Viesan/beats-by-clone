@@ -59,6 +59,16 @@ h3.cards-em-alta {
   padding: 0px;
 }
 
+h3.easy-buys-subtitle {
+  font-size: 26px;
+  font-weight: bolder;
+  font-family: "Didact Gothic", sans-serif;
+  letter-spacing: -0.025rem;
+  color: #010400;
+  margin: 0px;
+  padding: 0px;
+}
+
 h4 {
   font-size: 20px;
   font-weight: 400;
@@ -377,6 +387,65 @@ a.freight-bar {
   align-items: center;
   justify-content: space-between;
   width: 50%;
+  padding-bottom: 24px;
+}
+
+.easy-buy-container-subtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.easy-buy-content-subtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.easy-buy-container-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.easy-buy-content-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.easy-buy-container-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.easy-buy-content-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 55%;
+  margin-top: 12px;
+}
+
+.easy-buy-icon-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: baseline;
 }
 
 .icon-box1-easy-buys {
@@ -387,4 +456,9 @@ a.freight-bar {
 .icon-box2-easy-buys {
   width: 100px;
   height: 90px;
+}
+
+.icon-link-black {
+  width: 35px;
+  height: 35px;
 }
