@@ -179,8 +179,7 @@ a.freight-bar {
 
 .section-hero {
   width: 100vw;
-  height: auto;
-  min-width: 100vh;
+  height: 836px;
   margin: 0px;
   padding: 0px;
 }
@@ -188,27 +187,21 @@ a.freight-bar {
 .navbar-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
-  height: auto;
+  height: 84px;
   background-color: #ffffff;
   box-sizing: border-box;
+  padding: 12px 48px 12px 32px;
   position: sticky;
-  top: 10px;
+  top: 1px;
   transition: opacity 0.15s ease, visibility 0.9s ease;
+  cursor: pointer;
 }
 .navbar-container.hidden {
   opacity: 0;
   visibility: hidden;
-}
-
-.navbar-content-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 10px 52px 10px 32px;
-  cursor: pointer;
 }
 
 .navbar-text-content {
@@ -221,8 +214,8 @@ a.freight-bar {
 }
 
 .logo-beats-by {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
 }
 
 .icon-lupa {
@@ -239,19 +232,12 @@ a.freight-bar {
   height: 48px;
   background-color: #010400;
   transition: opacity 0s ease, visibility 0.5s ease;
+  cursor: pointer;
 }
 
 .freight-bar-container.hidden {
   opacity: 0;
   visibility: hidden;
-}
-
-.freight-bar-content-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: baseline;
-  cursor: pointer;
 }
 
 .icon-link-white {
@@ -267,7 +253,7 @@ a.freight-bar {
 .beats-solo-4-background-image {
   display: block;
   width: 100vw;
-  height: 700px;
+  height: 750px;
 }
 
 .beats-solo-4-lable {
@@ -296,7 +282,7 @@ a.freight-bar {
 
 .beats-solo-4-button {
   position: absolute;
-  top: 120%;
+  top: 123%;
   left: 9%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -304,12 +290,11 @@ a.freight-bar {
 }
 
 .section-cards-products {
-  margin: 0px;
-  padding: 0px;
   width: 100vw;
-  min-height: 100vh;
-  height: auto;
+  height: 100vh;
   background-color: #e2e2e2;
+  padding-top: 32px;
+  padding-bottom: 84px;
 }
 
 .cards-products-container {
@@ -320,9 +305,10 @@ a.freight-bar {
   width: 100%;
 }
 
-.cards-products-title {
+.title-of-sections {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 72px;
 }
 
@@ -399,4 +385,9 @@ a.freight-bar {
   width: 22px;
   height: 22px;
   border-radius: 11px;
+}
+
+.section-easy-buys {
+  width: 100vw;
+  height: 60vh;
 }
