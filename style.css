@@ -139,39 +139,6 @@ a.freight-bar {
   color: #ffffff;
   letter-spacing: -0.015rem;
 }
-
-.full-width {
-  width: 100%;
-}
-
-.mt {
-  margin-top: 16px;
-}
-
-.mt-larger {
-  margin-top: 32px;
-}
-
-.mt-large {
-  margin-top: 24px;
-}
-
-.mt-small {
-  margin-top: 12px;
-}
-
-.mt-smaller {
-  margin-top: 6px;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-left {
-  text-align: left;
-}
-
 .logo {
   width: 88px;
   height: auto;
@@ -253,7 +220,7 @@ a.freight-bar {
 .beats-solo-4-background-image {
   display: block;
   width: 100vw;
-  height: 750px;
+  height: 770px;
 }
 
 .beats-solo-4-lable {
@@ -293,7 +260,7 @@ a.freight-bar {
   width: 100vw;
   height: 100vh;
   background-color: #e2e2e2;
-  padding-top: 32px;
+  padding-top: 48px;
   padding-bottom: 84px;
 }
 
@@ -303,12 +270,14 @@ a.freight-bar {
   align-items: center;
   justify-content: flex-start;
   width: 100%;
+  height: auto;
 }
 
 .title-of-sections {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   margin-top: 72px;
 }
 
@@ -390,4 +359,32 @@ a.freight-bar {
 .section-easy-buys {
   width: 100vw;
   height: 60vh;
+  background-color: #ffffff;
+}
+
+.easy-buys-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 48px;
+}
+
+.easy-buys-content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.icon-box1-easy-buys {
+  width: 90px;
+  height: 80px;
+}
+
+.icon-box2-easy-buys {
+  width: 100px;
+  height: 90px;
 }
