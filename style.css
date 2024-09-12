@@ -18,6 +18,10 @@ h1 {
   color: #ffffff;
 }
 
+h1.studio {
+  color: #010400;
+}
+
 h2 {
   font-size: 30px;
   font-weight: bolder;
@@ -34,6 +38,9 @@ h2.beats-solo-4 {
   margin: 0px;
   padding: 0px;
   color: #ffffff;
+}
+h2.studio {
+  color: #010400;
 }
 
 h3 {
@@ -115,7 +122,7 @@ button {
   box-sizing: border-box;
 }
 
-button.buy-pro {
+button.studio {
   width: 120px;
   height: 52px;
   font-size: 14px;
@@ -461,4 +468,48 @@ a.freight-bar {
 .icon-link-black {
   width: 35px;
   height: 35px;
+}
+
+.section-beats-studio-pro {
+  width: 100vw;
+  height: 100vh;
+}
+
+.background-beats-studio-pro {
+  display: block;
+  width: 100%;
+  height: 700px;
+}
+
+.beats-studio-pro-title {
+  position: absolute;
+  top: 360%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.beats-studio-pro-title-2 {
+  position: absolute;
+  top: 375%;
+  left: 17.5%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.beats-studio-pro-subtitle {
+  position: absolute;
+  top: 385%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.beats-studio-pro-button {
+  position: absolute;
+  top: 395%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
 }
