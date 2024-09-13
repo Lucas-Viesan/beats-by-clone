@@ -110,6 +110,12 @@ h4.cards-info-subtitle {
   padding: 0px;
 }
 
+p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #808080;
+}
+
 button {
   width: 120px;
   height: 52px;
@@ -518,6 +524,7 @@ a.freight-bar {
   width: 100vw;
   height: 100vh;
   background-color: #e2e2e2;
+  padding-bottom: 48px;
 }
 
 .cards-info-container {
@@ -527,9 +534,7 @@ a.freight-bar {
   justify-content: flex-start;
   width: 100%;
   height: auto;
-  padding-top: 96px;
-  padding-left: 32px;
-  margin-bottom: 32px;
+  padding: 96px 0px 0px 32px;
 }
 
 .cards-info-grid {
@@ -635,4 +640,25 @@ a.freight-bar {
 .register-image {
   width: 460px;
   height: auto;
+}
+
+.section-beats-add-infos {
+  width: 100vw;
+  height: 40vh;
+  background-color: #ffffff;
+}
+
+.beats-add-infos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding: 70px 100px 70px 100px;
+}
+
+.section-insert-email {
+  width: 100vw;
+  height: 40vh;
+  background-color: #010200;
 }
