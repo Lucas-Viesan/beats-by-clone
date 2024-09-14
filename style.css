@@ -118,10 +118,23 @@ h4.cards-info-subtitle {
   padding: 0px;
 }
 
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #010400;
+}
+
 p {
   font-size: 12px;
   font-weight: 500;
   color: #808080;
+}
+
+p.footer {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Didact Gothic", sans-serif;
+  color: #948d8d;
 }
 
 button {
@@ -150,6 +163,13 @@ button.studio {
 
 button.register {
   width: 150px;
+}
+
+button.location {
+  width: 160px;
+  height: 40px;
+  border-color: #010400;
+  color: #010400;
 }
 
 input {
@@ -188,6 +208,16 @@ a.freight-bar {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   letter-spacing: -0.015rem;
+}
+
+a.footer {
+  font-size: 16px;
+  font-weight: 500;
+  color: #010400;
+  position: relative;
+  box-shadow: none;
+  padding-bottom: 0px;
+  letter-spacing: -0.025rem;
 }
 .logo {
   width: 88px;
@@ -689,7 +719,7 @@ a.freight-bar {
 
 .section-insert-email {
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
   background-color: #010200;
 }
 
@@ -708,10 +738,65 @@ a.freight-bar {
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  padding-bottom: 18px;
+  padding-bottom: 24px;
 }
 
 .insert-email-image {
   width: 36px;
   height: 36px;
+}
+
+.footer-beats-dre {
+  width: 100vw;
+  height: 95vh;
+  background-color: #ffffff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  padding: 32px 12px 12px 0px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 12px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.button-location-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  cursor: pointer;
+}
+
+.button-location-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.icon-contacts-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.icon-contacts {
+  width: 28px;
+  height: 28px;
 }
