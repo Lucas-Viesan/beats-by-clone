@@ -749,9 +749,3 @@ a.footer {
   width: 28px;
   height: 28px;
 }
-
-@media only screen and (max-device-width: 450px) {
-  .section-easy-buys {
-    height: 25vh;
-  }
-}

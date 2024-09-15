@@ -1,0 +1,32 @@
+@media only screen and (max-device-width: 450px) {
+  a.freight-bar {
+    font-size: 28px;
+  }
+
+  .section-hero {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .navbar-container {
+    width: 100%;
+    height: 100px;
+  }
+
+  .freight-bar-container {
+    width: 100%;
+    height: 62px;
+  }
+  .icon-link-white {
+    width: 40px;
+    height: 40px;
+  }
+
+  .beats-solo-4-container {
+    width: 100%;
+    height: 700px;
+  }
+  .section-easy-buys {
+    height: 25vh;
+  }
+}
