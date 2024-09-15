@@ -1,21 +1,54 @@
 @media only screen and (max-device-width: 450px) {
+  h1 {
+    font-size: 96px;
+  }
+
+  h2.beats-solo-4 {
+    font-size: 56px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h3.beats-solo-4 {
+    font-size: 36px;
+  }
+
+  button {
+    width: 170px;
+    height: 72px;
+    font-size: 24px;
+    border-radius: 36px;
+  }
+
   a.freight-bar {
     font-size: 28px;
   }
 
   .section-hero {
     width: 100%;
-    height: 100vh;
+    height: 900px;
   }
 
   .navbar-container {
     width: 100%;
-    height: 100px;
+    height: 110px;
+  }
+
+  .logo-beats-by {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icon-lupa {
+    width: 44px;
+    height: 44px;
   }
 
   .freight-bar-container {
     width: 100%;
-    height: 62px;
+    height: 84px;
   }
   .icon-link-white {
     width: 40px;
@@ -24,8 +57,34 @@
 
   .beats-solo-4-container {
     width: 100%;
-    height: 700px;
+    height: 100%;
   }
+  .section-cards-products {
+    width: 100%;
+    height: 100%;
+    background-color: #e2e2e2;
+    padding-top: 170px;
+    padding-bottom: 56px;
+  }
+
+  .cards-products-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .products-cards {
+    width: 300px;
+    height: auto;
+  }
+
+  /* .title-of-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 72px;
+  } */
+
   .section-easy-buys {
     height: 25vh;
   }
