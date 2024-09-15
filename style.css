@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
   color: #010400;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -159,10 +160,12 @@ button.studio {
   border-color: #010400;
   background-color: #010400;
   box-sizing: border-box;
+  padding-bottom: 0%;
 }
 
 button.register {
   width: 150px;
+  padding-bottom: 0%;
 }
 
 button.location {
@@ -170,6 +173,7 @@ button.location {
   height: 40px;
   border-color: #010400;
   color: #010400;
+  padding-bottom: 0%;
 }
 
 input {
@@ -225,7 +229,7 @@ a.footer {
 }
 
 .section-hero {
-  width: 100vw;
+  width: 100%;
   height: 836px;
   margin: 0px;
   padding: 0px;
@@ -293,55 +297,26 @@ a.footer {
 }
 
 .beats-solo-4-container {
-  display: inline-block;
-  position: static;
-  width: 100vw;
-  height: 770px;
-  overflow: hidden;
-}
-
-.beats-solo-4-background-image {
-  display: block;
+  background-image: url(images/beats-2.jpg);
+  background-size: cover;
+  background-position: flex-start;
+  background-repeat: no-repeat;
   width: 100%;
   height: 770px;
-}
-
-.beats-solo-4-lable {
-  position: absolute;
-  top: 90%;
-  left: 7%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.beats-solo-4-title {
-  position: absolute;
-  top: 100%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.beats-solo-4-subtitle {
-  position: absolute;
-  top: 110%;
-  left: 19.5%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.beats-solo-4-button {
-  position: absolute;
-  top: 123%;
-  left: 9%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  cursor: pointer;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-left: 6%;
+  padding-bottom: 8%;
 }
 
 .section-cards-products {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: #e2e2e2;
   padding-top: 48px;
   padding-bottom: 84px;
@@ -352,7 +327,7 @@ a.footer {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
@@ -379,8 +354,8 @@ a.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 400px;
-  min-height: 400px;
+  justify-content: space-between;
+  width: auto;
   height: auto;
   border-style: solid;
   border-width: 2px;
@@ -440,7 +415,7 @@ a.footer {
 }
 
 .section-easy-buys {
-  width: 100vw;
+  width: 100%;
   height: 60vh;
   background-color: #ffffff;
 }
@@ -537,52 +512,26 @@ a.footer {
 }
 
 .section-beats-studio-pro {
-  width: 100vw;
-  height: 100vh;
-}
-
-.background-beats-studio-pro {
-  display: block;
+  background-image: url(images/hp-hero-studiopro.jpg.large.2x.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 700px;
-}
-
-.beats-studio-pro-title {
-  position: absolute;
-  top: 360%;
-  left: 12%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.beats-studio-pro-title-2 {
-  position: absolute;
-  top: 375%;
-  left: 17.5%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.beats-studio-pro-subtitle {
-  position: absolute;
-  top: 385%;
-  left: 11%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.beats-studio-pro-button {
-  position: absolute;
-  top: 395%;
-  left: 10%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  cursor: pointer;
+  height: 600px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-left: 6%;
+  padding-bottom: 8%;
 }
 
 .section-cards-info {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: #e2e2e2;
   padding-bottom: 48px;
 }
@@ -592,7 +541,7 @@ a.footer {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  width: 100%;
+  width: 90%;
   height: auto;
   padding: 96px 0px 0px 32px;
 }
@@ -703,8 +652,8 @@ a.footer {
 }
 
 .section-beats-add-infos {
-  width: 100vw;
-  height: 40vh;
+  width: 100%;
+  height: 40%;
   background-color: #ffffff;
 }
 
@@ -713,7 +662,7 @@ a.footer {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 100%;
+  width: auto;
   padding: 70px 100px 70px 100px;
 }
 
@@ -768,7 +717,7 @@ a.footer {
   margin-bottom: 12px;
 }
 
-.footer-bottom {
+.footer-buttom {
   text-align: center;
   padding-top: 40px;
 }
@@ -799,4 +748,10 @@ a.footer {
 .icon-contacts {
   width: 28px;
   height: 28px;
+}
+
+@media only screen and (max-device-width: 450px) {
+  .section-easy-buys {
+    height: 25vh;
+  }
 }
