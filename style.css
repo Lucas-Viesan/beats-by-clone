@@ -517,7 +517,7 @@ a.footer {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 600px;
+  height: 700px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -608,8 +608,8 @@ a.footer {
 }
 
 .section-register {
-  width: 100vw;
-  height: 90vh;
+  width: 100%;
+  height: 90%;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     3deg,
@@ -617,33 +617,27 @@ a.footer {
     rgba(14, 14, 14, 1) 36%,
     rgba(157, 171, 173, 1) 100%
   );
-}
-
-.register-container {
+  background-size: cover;
+  background-position: flex-start;
+  background-repeat: no-repeat;
   display: flex;
+  position: relative;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 6%;
+  padding-left: 6%;
+  padding-bottom: 8%;
+}
+
+.register-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  padding: 52px;
-  box-sizing: border-box;
-}
-
-.register-title {
-  position: absolute;
-  top: 560%;
-  left: 40%;
-  transform: translate(0%, -50%);
-  text-align: center;
-}
-
-.register-button {
-  position: absolute;
-  top: 571%;
-  left: 45%;
-  transform: translate(-48%, -50%);
-  text-align: center;
-  cursor: pointer;
 }
 
 .register-image {
@@ -667,9 +661,10 @@ a.footer {
 }
 
 .section-insert-email {
-  width: 100vw;
-  height: 60vh;
+  width: 100%;
+  height: auto;
   background-color: #010200;
+  padding-bottom: 24px;
 }
 
 .insert-email-container {
@@ -696,8 +691,8 @@ a.footer {
 }
 
 .footer-beats-dre {
-  width: 100vw;
-  height: 95vh;
+  width: 100%;
+  height: 100%;
   background-color: #ffffff;
 }
 

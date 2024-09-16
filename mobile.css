@@ -3,8 +3,16 @@
     font-size: 96px;
   }
 
-  h2.beats-solo-4 {
-    font-size: 56px;
+  h1.studio {
+    font-size: 48px;
+  }
+
+  h1.register-tt {
+    font-size: 40px;
+  }
+
+  h2.studio {
+    font-size: 32px;
   }
 
   h3 {
@@ -20,6 +28,18 @@
     height: 72px;
     font-size: 24px;
     border-radius: 36px;
+  }
+
+  button.studio {
+    width: 120px;
+    height: 52px;
+    font-size: 14px;
+  }
+
+  button.register {
+    width: 120px;
+    height: 52px;
+    font-size: 14px;
   }
 
   a.freight-bar {
@@ -77,15 +97,24 @@
     height: auto;
   }
 
-  /* .title-of-sections {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: 72px;
-  } */
-
   .section-easy-buys {
     height: 25vh;
+  }
+
+  .section-beats-studio-pro {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 6%;
+    padding-bottom: 8%;
+  }
+  .register-image {
+    width: 400px;
   }
 }
