@@ -129,6 +129,7 @@ p {
   font-size: 12px;
   font-weight: 500;
   color: #808080;
+  text-align: justify;
 }
 
 p.footer {
