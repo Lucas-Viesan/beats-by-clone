@@ -351,6 +351,21 @@ a.footer {
   margin-top: 48px;
 }
 
+.slider {
+  width: 100%;
+  height: 100%;
+}
+
+.slides input {
+  display: none;
+}
+
+.slides {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
 .products-cards {
   display: flex;
   flex-direction: column;
@@ -370,8 +385,8 @@ a.footer {
 }
 
 .products-cards:hover {
-  transform: scale(1.02); /* Aumenta 10% do tamanho */
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+  transform: scale(1.02);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .products-cards-title {
@@ -576,8 +591,8 @@ a.footer {
 }
 
 .cards-info:hover {
-  transform: scale(1.02); /* Aumenta 10% do tamanho */
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+  transform: scale(1.02);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .cards-info-content {
@@ -713,8 +728,9 @@ a.footer {
   margin-bottom: 12px;
 }
 
-.footer-buttom {
-  text-align: center;
+.footer-bottom {
+  display: flex;
+  justify-content: center;
   padding-top: 40px;
 }
 

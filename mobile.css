@@ -23,6 +23,14 @@
     font-size: 36px;
   }
 
+  h3.cards-em-alta {
+    font-size: 36px;
+  }
+
+  h4.subtitle {
+    font-size: 28px;
+  }
+
   button {
     width: 170px;
     height: 72px;
@@ -81,7 +89,7 @@
   }
   .section-cards-products {
     width: 100%;
-    height: 100%;
+    height: 50vh;
     background-color: #e2e2e2;
     padding-top: 170px;
     padding-bottom: 56px;
@@ -92,9 +100,92 @@
     height: 100%;
   }
 
-  .products-cards {
-    width: 300px;
+  .cards-products-grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slider {
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .slides {
+    width: 100%;
     height: auto;
+    display: flex;
+  }
+
+  .slides input {
+    display: none;
+  }
+
+  .slide {
+    width: 100%;
+  }
+
+  .manual-navigation {
+    position: absolute;
+    width: 50%;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .manual-btn {
+    display: flex;
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .manual-btn:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .manual-btn:hover {
+    background-color: #ffffff;
+  }
+
+  #radio1:checked ~ .first {
+    margin-left: 0;
+  }
+
+  #radio2:checked ~ .first {
+    margin-left: -85%;
+  }
+
+  #radio3:checked ~ .first {
+    margin-left: -155%;
+  }
+
+  .products-cards {
+    width: 100%;
+    height: 50%;
+  }
+
+  .products-cards-image {
+    width: 350px;
+    height: 310px;
+    padding-top: 12px;
+  }
+
+  .products-colors-container {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    width: 170px;
+  }
+
+  .products-colors-content {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
   }
 
   .section-easy-buys {
