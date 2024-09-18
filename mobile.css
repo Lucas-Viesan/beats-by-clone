@@ -11,6 +11,10 @@
     font-size: 40px;
   }
 
+  h2 {
+    font-size: 56px;
+  }
+
   h2.studio {
     font-size: 32px;
   }
@@ -101,6 +105,10 @@
     height: 100%;
   }
 
+  .title-of-sections {
+    padding-top: 64px;
+  }
+
   .cards-products-grid {
     display: grid;
     width: 100%;
@@ -159,11 +167,11 @@
   }
 
   #radio2:checked ~ .first {
-    margin-left: -85%;
+    margin-left: -95%;
   }
 
   #radio3:checked ~ .first {
-    margin-left: -155%;
+    margin-left: -185%;
   }
 
   .products-cards {
