@@ -57,7 +57,7 @@
   }
 
   h4.cards-info-subtitle {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   h5 {
@@ -92,7 +92,7 @@
   }
 
   button.location {
-    width: 200px;
+    width: 220px;
     height: 70px;
     border-color: #010400;
     color: #010400;
@@ -170,6 +170,7 @@
   .cards-products-container {
     width: 100%;
     height: 100%;
+    padding-top: 32px;
   }
 
   .cards-products-grid {
@@ -343,7 +344,7 @@
 
   .footer-beats-dre {
     width: 100%;
-    height: 70vh;
+    height: 40vh;
   }
   .footer-container {
     display: flex;
