@@ -8,31 +8,68 @@
   }
 
   h1.register-tt {
-    font-size: 40px;
+    font-size: 56px;
   }
 
   h2 {
     font-size: 56px;
   }
 
+  h2.beats-solo-4 {
+    font-size: 40px;
+  }
+
   h2.studio {
     font-size: 32px;
+  }
+
+  h2.info-title {
+    font-size: 40px;
+  }
+
+  h2.insert-email {
+    font-size: 56px;
   }
 
   h3 {
     font-size: 28px;
   }
 
-  h3.beats-solo-4 {
-    font-size: 36px;
+  h3.cards-em-alta {
+    font-size: 40px;
   }
 
   h3.easy-buys-subtitle {
     font-size: 40px;
   }
 
+  h3.insert-text {
+    font-size: 40px;
+    text-align: center;
+  }
+
   h4 {
     font-size: 30px;
+  }
+
+  h4.subtitle {
+    font-size: 28px;
+  }
+
+  h4.cards-info-subtitle {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  p.footer {
+    font-size: 24px;
   }
 
   button {
@@ -49,16 +86,43 @@
   }
 
   button.register {
-    width: 120px;
-    height: 52px;
-    font-size: 14px;
+    width: 170px;
+    height: 64px;
+    font-size: 18px;
   }
+
+  button.location {
+    width: 200px;
+    height: 70px;
+    border-color: #010400;
+    color: #010400;
+    padding-bottom: 0%;
+  }
+
+  input {
+    width: 80%;
+    height: 84px;
+    border-radius: 40px;
+    border-width: 3px;
+  }
+
+  input::placeholder {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 28px;
+  }
+
   a {
     font-size: 30px;
   }
 
   a.freight-bar {
     font-size: 28px;
+  }
+
+  a.footer {
+    font-size: 20px;
   }
 
   .section-hero {
@@ -97,7 +161,7 @@
 
   .section-cards-products {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: #e2e2e2;
     padding-top: 170px;
     padding-bottom: 56px;
@@ -117,7 +181,7 @@
 
   .products-cards {
     width: 400px;
-    height: 700px;
+    height: 100%;
   }
 
   .products-cards.gd {
@@ -147,7 +211,7 @@
   }
 
   .section-easy-buys {
-    height: 50vh;
+    height: auto;
   }
 
   .easy-buys-container {
@@ -169,17 +233,127 @@
   .section-beats-studio-pro {
     width: 100%;
     height: 600px;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    overflow: hidden;
-    box-sizing: border-box;
-    padding-left: 6%;
-    padding-bottom: 8%;
   }
   .register-image {
     width: 400px;
+  }
+
+  .section-cards-info {
+    width: 100%;
+    height: auto;
+  }
+
+  .cards-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    padding: 96px 0px 0px 12px;
+  }
+
+  .cards-info-grid {
+    display: grid;
+    width: 100%;
+    column-gap: 18px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .cards-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 640px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 24px;
+    border-color: #e4fde1;
+    background-color: #ffffff;
+    padding: 24px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .cards-info.gd {
+    margin-top: 18px;
+  }
+
+  .section-register {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .register-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .register-image {
+    width: 600px;
+    height: auto;
+  }
+
+  .section-beats-add-infos {
+    width: 100%;
+    height: 35vh;
+    background-color: #ffffff;
+  }
+
+  .section-insert-email {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .insert-email-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 60px;
+  }
+
+  .insert-email-content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 48px;
+  }
+
+  .insert-email-image {
+    width: 56px;
+    height: 56px;
+  }
+
+  .footer-beats-dre {
+    width: 100%;
+    height: 70vh;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding: 32px 12px 12px 0px;
+  }
+
+  .icon-contacts {
+    width: 36px;
+    height: 36px;
   }
 }

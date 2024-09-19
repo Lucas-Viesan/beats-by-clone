@@ -48,6 +48,14 @@ h2.studio {
   color: #010400;
 }
 
+h2.insert-email {
+  font-size: 32px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+}
+
 h3 {
   font-size: 20px;
   font-weight: bolder;
@@ -540,7 +548,7 @@ a.footer {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  width: 90%;
+  width: 95%;
   height: auto;
   padding: 96px 0px 0px 32px;
 }
