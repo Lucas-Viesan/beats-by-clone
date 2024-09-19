@@ -13,6 +13,7 @@
 
   h2 {
     font-size: 56px;
+    font-weight: bold;
   }
 
   h2.beats-solo-4 {
@@ -64,6 +65,10 @@
     font-size: 24px;
   }
 
+  h5.location {
+    font-size: 20px;
+  }
+
   p {
     font-size: 24px;
   }
@@ -92,7 +97,7 @@
   }
 
   button.location {
-    width: 220px;
+    width: 200px;
     height: 70px;
     border-color: #010400;
     color: #010400;
@@ -161,16 +166,15 @@
 
   .section-cards-products {
     width: 100%;
-    height: auto;
+    height: 90vh;
     background-color: #e2e2e2;
     padding-top: 170px;
-    padding-bottom: 56px;
   }
 
   .cards-products-container {
     width: 100%;
     height: 100%;
-    padding-top: 32px;
+    padding-bottom: 12px;
   }
 
   .cards-products-grid {
