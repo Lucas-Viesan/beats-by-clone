@@ -1,5 +1,7 @@
 # Beats By Dre
 
+https://github.com/user-attachments/assets/74ac5ec9-414f-4045-bb74-d3faa96772d4
+
 ## Introdução
 
 O Beats By Clone é um clone de uma loja virtual de produtos de áudio (fones de ouvido e acessórios), inspirado no design da famosa marca Beats by Dre. O projeto foi desenvolvido para praticar habilidades de front-end, como HTML, CSS e JavaScript, com foco em layout responsivo e design interativo.
